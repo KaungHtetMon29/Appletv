@@ -1,6 +1,6 @@
 export function Logo({ text = "white" }) {
   return (
-    <span class="globalnav-image-compact globalnav-link-image">
+    <span className="globalnav-image-compact globalnav-link-image">
       <svg
         height="48"
         viewBox="0 0 17 48"
@@ -48,14 +48,14 @@ export function Bag() {
 
 export function Arrow({ color = "black" }) {
   return (
-    <svg class="accordion-icon-svg" viewBox="0 0 17 8.85">
+    <svg className="accordion-icon-svg" viewBox="0 0 17 8.85">
       <polyline
         data-accordion-icon-shape=""
         stroke={color}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         points="15 1.13 8.5 7.72 2 1.13"
       >
         <animate
@@ -101,11 +101,11 @@ export function Menu() {
         id="globalnav-menutrigger-bread-bottom"
         fill="none"
         stroke="currentColor"
-        stroke-width="1.2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         points="2 12, 16 12"
-        class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"
+        className="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"
       >
         <animate
           id="globalnav-anim-menutrigger-bread-bottom-open"
@@ -134,11 +134,11 @@ export function Menu() {
         id="globalnav-menutrigger-bread-top"
         fill="none"
         stroke="currentColor"
-        stroke-width="1.2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         points="2 5, 16 5"
-        class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"
+        className="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"
       >
         <animate
           id="globalnav-anim-menutrigger-bread-top-open"
