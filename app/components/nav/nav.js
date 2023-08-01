@@ -8,9 +8,9 @@ function Navigation() {
       <div
         className={`absolute w-full bg-black lg:${
           click ? "flex" : "hidden"
-        } flex-col xl:hidden pt-12 pb-24 px-16 z-40 `}
+        } flex-col md:hidden pt-12 pb-24 px-16 z-40 `}
       >
-        <div className=" max-w-2xl font-bold flex flex-col gap-y-4 text-3xl">
+        <div className=" max-w-2xl font-bold flex flex-col gap-y-4 text-3xl text-white">
           <div>Store</div>
           <div>Mac</div>
           <div>iPad</div>

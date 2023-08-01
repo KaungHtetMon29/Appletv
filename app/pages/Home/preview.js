@@ -10,7 +10,7 @@ function Preview() {
     "https://www.apple.com/tv-pr/shows-and-films/k/killers-of-the-flower-moon/images/show-home-graphic-header/Apple_TV_Killers_of_the_Flower_Moon_key_art_sh_cr.jpg",
   ];
   return (
-    <div className="font-white bg-black relative overflow-hidden">
+    <div className="font-white bg-black relative overflow-hidden text-white">
       <div className="flex justify-center py-12  h-full relative">
         <div className="z-40 absolute w-20 rotate-90 flex items-center h-full left-0">
           <Arrow color="white" />

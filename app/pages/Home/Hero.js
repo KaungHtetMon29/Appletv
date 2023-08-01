@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="relative ">
+    <div className="relative bg-black text-white">
       <motion.div
         initial={{ opacity: 0 }}
         transition={{ delay: 0.5 }}
@@ -15,7 +15,7 @@ function Hero() {
           autoPlay
           loop
           muted
-          className="fixed top-0 xl:w-fit xl:left-auto lg:-left-2/4 lg:w-auto min-w-full h-none  max-w-none z-0"
+          className="fixed top-0 bottom-0 right-0 left-0 xl:w-fit xl:left-auto lg:w-auto lg:h-auto min-w-full h-none  max-w-none z-0"
         >
           <source
             src="https://www.apple.com/105/media/us/apple-tv-plus/2022/4114721e-12d2-4260-87c4-678589d5f804/anim/supercut/large.mp4"
@@ -24,10 +24,10 @@ function Hero() {
         </motion.video>
       </motion.div>
 
-      <div className="top-0 2xl:max-w-7xl xl:max-w-5xl lg:max-w-2xl flex flex-col mx-auto gap-y-64 py-44 relative z-30">
+      <div className="top-0 2xl:max-w-7xl xl:max-w-5xl lg:max-w-2xl flex flex-col mx-auto gap-y-64 py-44 relative z-30 ">
         <div className="lg:gap-y-8 flex flex-col xl:gap-y-4">
           <div className="flex flex-col ">
-            <h1 className="2xl:text-8xl xl:text-8xl lg:text-6xl font-bold 2xl:leading-normal xl:leading-normal">
+            <h1 className="2xl:text-8xl xl:text-8xl lg:text-6xl font-bold 2xl:leading-normal xl:leading-normal text-white">
               All Apple Original.
               <br /> Only on Apple TV+.
             </h1>
@@ -72,7 +72,7 @@ function Hero() {
           transition={{ duration: 0.3 }}
           exit={{ y: 100, opacity: 0 }}
         >
-          <div className="gap-y-14 flex flex-col h-full">
+          <div className="gap-y-14 flex flex-col h-full ">
             <div className="font-bold flex flex-col xl:gap-y-4 lg:gap-y-1">
               <p className="2xl:text-3xl xl:text-2xl lg:text-lg font-semibold">
                 Buy an Apple device
